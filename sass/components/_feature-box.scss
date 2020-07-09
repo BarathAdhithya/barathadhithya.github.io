@@ -1,0 +1,80 @@
+.feature-box {
+  // background-color: #7c4dff;
+  font-size: 1.5rem;
+  padding: 3rem 3rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+  transition: all 0.4s;
+  color: $color-primary-light;
+  background-blend-mode: multiply;
+  background-image: linear-gradient(
+      180deg,
+      rgba($color-header-gradient-dark, 0.8),
+      rgba($color-btn-bg, 0.9)
+    ),
+    url(../../img/featurecard.jpg);
+  background-size: cover;
+  opacity: 0.9;
+  &:hover {
+    opacity: 1;
+  }
+
+  &__icon {
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+
+    -webkit-background-clip: text;
+    // color: transparent;
+  }
+
+  .icon-basic-heart {
+    // color: red;
+  }
+
+  &__icon-basic-magnifier-box {
+    // animation: moveMaginifier 3.5s linear 0s infinite;
+    &:hover {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+  }
+
+  &__icon-basic-world-box {
+    // animation: rotateGlobe 15s linear 0s infinite;
+    &:hover {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+  }
+  &__icon-basic-compass-box {
+    // animation: rotateCompass 15s linear 0s infinite;
+    &:hover {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+  }
+
+  &__icon-basic-heart-box {
+    // animation: scaleHeart 5s linear 0s infinite;
+    &:hover {
+      -webkit-animation-play-state: paused;
+      -moz-animation-play-state: paused;
+      -o-animation-play-state: paused;
+      animation-play-state: paused;
+    }
+  }
+  &:hover {
+    transform: translateY(-1rem) scale(1.03);
+  }
+
+  &__text {
+  }
+}

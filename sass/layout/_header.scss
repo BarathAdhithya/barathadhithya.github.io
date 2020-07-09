@@ -1,0 +1,56 @@
+.header {
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: linear-gradient(
+      180deg,
+      rgba($color-header-gradient-dark, 0.5),
+      rgba($color-btn-bg, 1)
+    ),
+    url(../../img/hero-1.jpg);
+  background-size: cover;
+  background-position: -70% -70%;
+  /* clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); */
+  position: relative;
+  // animation: scaleHeaderImage 30s linear infinite;
+
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+
+  &__logo {
+    height: 3.5rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+@keyframes scaleHeaderImage {
+  0% {
+    background-size: 100%;
+    // transform: translateX(0rem);
+  }
+  25% {
+    background-size: 110%;
+    // transform: translateX(1rem);
+  }
+  50% {
+    background-size: 120%;
+    // transform: translateX(0rem);
+  }
+  75% {
+    background-size: 110%;
+    // transform: translateX(-1rem);
+  }
+  100% {
+    background-size: 100%;
+    // transform: background-size(100%);
+  }
+}

@@ -1,0 +1,33 @@
+//COLORS
+$color-primary: #4fc3f7;
+$color-primary-light: #8bf6ff;
+$color-primary-dark: #0093c4;
+$color-btn-bg: lighten(#ff7043, 7%);
+$color-header-gradient-dark: #0093c4;
+$color-header-gradient-light: #8bf6ff;
+$color-white: #fff;
+$color-black: #000;
+$color-light-blue-1: #eeffff;
+$color-light-grey: #9e9e9e;
+$color-dark-grey: #707070;
+$color-dark-grey-1: darken(#707070, 20%);
+$color-dark-yellow: #c6a700;
+$color-light-yellow: #fdd835;
+$color-dark-pink: #ba2d65;
+$color-light-pink: #f06292;
+$color-light-orange: #ff5722;
+$color-lime: #e6ee9c;
+$color-purple: #8e24aa;
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;
+
+// FONT
+$default-font-size: 1.6rem;
+
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+$bg-url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC";
+$bg-width: 50px;
+$bg-height: 50px;

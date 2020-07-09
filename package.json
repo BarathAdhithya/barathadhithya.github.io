@@ -1,0 +1,17 @@
+{
+  "name": "insight",
+  "version": "1.0.0",
+  "description": "landing page of insight",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "tilt.js": "^1.2.1"
+  }
+}
