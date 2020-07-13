@@ -13,7 +13,7 @@
       rgba($color-header-gradient-dark, 0.8),
       rgba($color-btn-bg, 0.9)
     ),
-    url(../../img/featurecard.jpg);
+    url("../../img/featurecard.jpg");
   background-size: cover;
   opacity: 0.9;
   &:hover {

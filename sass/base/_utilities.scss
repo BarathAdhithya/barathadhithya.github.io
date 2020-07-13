@@ -39,6 +39,26 @@
   background-color: rgba($color-white, 0.8) !important;
 }
 
-.u-color-white{
-  color:white !important;
+.u-color-white {
+  color: white !important;
+}
+
+.u-overflow-x-hidden {
+  overflow-x: hidden !important;
+}
+
+.u-overflow-y-hidden {
+  overflow-y: hidden !important;
+}
+
+.u-margin-right-0 {
+  margin-right: 0px !important;
+}
+
+.u-color-black {
+  color: black !important;
+}
+
+.u-header-shadow {
+  text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
 }
